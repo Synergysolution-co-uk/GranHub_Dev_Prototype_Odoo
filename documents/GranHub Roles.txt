@@ -7,4 +7,4 @@
 *Sneha* - Software Engineer -Develop Web Site - Absent on 8th
 *Ravi* - Automation Tester - Prepare Web Site test cases (Hariharan has assigned task to Ravi to create github account and share)
 *SamiArun* - Cyber Security - Prepare Security Protocol - Absent 8th
-*Waseem* - Business Consultant - Create Web site Content - Absent 8th (problem installing odoo)
+*Waseem* - Business Consultant - Create Web site Content - Leave 8th (problem installing odoo)
