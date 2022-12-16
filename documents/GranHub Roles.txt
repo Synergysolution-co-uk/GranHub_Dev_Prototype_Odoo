@@ -1,11 +1,11 @@
 *GranHub Roles*
 *-------------*
-*Meeting update* -  14/12/2022
+*Meeting update* -  16/12/2022
 *Mythreyi* - Architect - GrandHub Database Architect & Web Site Design
-*Prasanna* - Business Development Consultant - Create Web site Content (facing odoo master passsword issue, Snehit will help)
-*Snehit* - Software Engineer -Develop Web Site (Got the repository and modifying as per guidelines)
-*Sneha* - Software Engineer -Develop Web Site - Absent on 9th
-*Ravi* - Automation Tester - Prepare Web Site test cases (Added Ravi to github, ask Indika for guidelines and to clone repository and start base development)
+*Prasanna* - Business Development Consultant - facing odoo master passsword issue, Snehit will help, unwell on 16th
+*Snehit* - Software Engineer - Got the repository and modifying as per guidelines, unwell on 16th
+*Sneha* - Software Engineer -Develop Web Site - unwell on 16th
+*Ravi* - Automation Tester - Indika gave inputs on odoo, Ravi to start learning
 *Sami* - Cyber Security - Prepare Security Protocol - Holiday 9th
-*Arun* - Cyber Security - Prepare Security Protocol - Absent 9th
-*Waseem* - Business Consultant - Create Web site Content - (has windows, still having problem installing odoo)
+*Arun* - Cyber Security - Prepare Security Protocol - Absent 16th
+*Waseem* - Business Consultant - Create Web site Content - Absent 16th (has windows, still having problem installing odoo)
