@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+acl_userstable,granhubmodule.userstable_default,model_granhubmodule_userstable,,1,0,0,0
+acl_userstable_granhubadmin,granhubmodule.userstable_granhubadmin,model_granhubmodule_userstable,group_granhubadmin,1,1,1,1
