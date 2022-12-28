@@ -10,7 +10,7 @@
 	'depends' : ['base'],
 	'data' : [
 		     'security/groups.xml',
-		     'views/grabhubmodule_userstable.xml',
+		     'views/granhubmodule_userstable.xml',
 	         'security/ir.model.access.csv',
 	         ],	
 }
