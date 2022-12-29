@@ -1,9 +1,9 @@
-*GranHub Roles*
+*GranHub MoM*
 *-------------*
-*Meeting update* -  19/12/2022
+*Meeting update* -  28/12/2022 (after break)
 *Mythreyi* - Architect - GrandHub Database Architect & Web Site Design
-*Prasanna* - Business Development Consultant - Odoo and Github installed, Invited to be part of synergy organisation, update to Jira pending
-*Snehit* - Software Engineer - Got the repository and modifying as per guidelines, update to Jira pending
+*Prasanna* - Business Development Consultant - (P) Cloned, to add documents , update to Jira pending, create feature list
+*Snehit* - Software Engineer - (P) Got the repository and modifying as per guidelines, not , update to Jira pending
 *Sneha* - Software Engineer -Develop Web Site - unwell on 19th
 *Ravi* - Automation Tester - Indika gave inputs on odoo, Ravi to start learning, update to Jira pending
 *Sami* - Cyber Security - Prepare Security Protocol - Holiday 9th
