@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<act_window
+id="granhubmodule_userstable_action"
+name="Users Data"
+res_model="granhubmodule.userstable" />
+
+<menuitem
+ id="granhubmodule_userstable_menu"
+ name="GRANHUB Module" 
+ action="granhubmodule_userstable_action"
+ parent=""
+ sequence="5" />
+
+<record id ="grahubmodule_userstable_view_form" model="ir.ui.view">
+   <field name="name">Users Data Form</field>
+   <field name="model">granhubmodule.userstable</field>
+   <field name="arch" type="xml">
+         <form>
+ 	     <group>
+	        <field name="name"/>	
+	     </group>
+	 </form>
+   </field>
+</record>
+
+<record id="grabhubmodule_userstable_view_tree" model="ir.ui.view">
+  <field name="name">Users Data List</field>
+  <field name="model">odoomodule.odootable</field>
+  <field name="arch" type="xml">
+    <tree>
+      <field name="name"/>
+    </tree>
+    </field>
+</record>	
+	
+
+</odoo>
