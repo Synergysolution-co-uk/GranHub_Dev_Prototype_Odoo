@@ -1,10 +1,10 @@
 *GranHub MoM*
 *-------------*
-*Meeting update* -  28/12/2022 (after break)
+*Meeting update* -  29/12/2022
 *Mythreyi* - Architect - GrandHub Database Architect & Web Site Design
 *Prasanna* - Business Development Consultant - (P) Cloned, to add documents , update to Jira pending, create feature list
 *Snehit* - Software Engineer - (P) Got the repository and modifying as per guidelines, not , update to Jira pending
-*Sneha* - Software Engineer -Develop Web Site - unwell on 19th
-*Ravi* - Automation Tester - Indika gave inputs on odoo, Ravi to start learning, update to Jira pending
+*Sneha* - Software Engineer -(A) Develop Web Site - unwell on 19th
+*Ravi* - Automation Tester - (P) Having storage issue, Indika gave inputs on odoo, Ravi to start learning, update to Jira pending
 *Sami* - Cyber Security - Prepare Security Protocol - Holiday 9th
 *Waseem* - Business Consultant - Create Web site Content - Absent 19th (has windows, still having problem installing odoo)
