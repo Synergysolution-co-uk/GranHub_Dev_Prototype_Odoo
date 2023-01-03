@@ -1,9 +1,9 @@
 *GranHub MoM*
 *-------------*
-*Meeting update* -  30/12/2022
-*Prasanna* - Business Development Consultant - SP-4 (P) Cloned, to add documents , update to Jira pending, create feature list
-*Ravi* - Automation Tester - SP-5 (A) Having storage issue, Indika gave inputs on odoo, Ravi to start learning, update to Jira pending
-*Snehit* - Software Engineer - SP-3 (P) Got the repository and modifying as per guidelines, update to Jira pending
+*Meeting update* -  03/01/2023
+*Prasanna* - Business Development Consultant - SP-4 (Leave) *Jira 29th Dec Git * - Cloned, to add documents , update to Jira pending, create feature list
+*Ravi* - Automation Tester - SP-5 (A) *Jira 30th Dec Git * - Having storage issue, Indika gave inputs on odoo, Ravi to start learning, update to Jira pending
+*Snehit* - Software Engineer - SP-3 (Leave) *Jira 28th Dec Git 28th Dec* - Got the repository and modifying as per guidelines, update to Jira pending
 
 *Sneha* - Software Engineer -(A) Develop Web Site - unwell on 19th
 *Sami* - Cyber Security - Prepare Security Protocol - Holiday 9th
