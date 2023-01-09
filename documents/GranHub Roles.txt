@@ -1,10 +1,10 @@
 *GranHub MoM*
 *-------------*
-*Meeting update* -  06/01/2023
-*Prasanna* - Business Development Consultant - SP-4 (P) *Jira 4th Jan Git No Update, discuss as she migt be having issue* - Hariharan to review and guide
+*Meeting update* -  09/01/2023
+*Prasanna* - Business Development Consultant - SP-4 (A) *Jira 4th Jan Git No Update, discuss as she migt be having issue* - Hariharan to review and guide
 *Ravi* - Automation Tester - SP-5 (P) *Jira 30th Dec Git * - Meet in person on 10th Jan
-*Snehit* - Software Engineer - SP-3 (Leave) *Jira 5th Jan Dec Git 28th Dec* - Develop Basic Website
+*Snehit* - Software Engineer - SP-3 (P) *Jira 5th Jan Dec Git 28th Dec* - To Develop Basic Website ?
 
-*Sneha* - Software Engineer -(??) Develop Web Site
+*Sneha* - Software Engineer - (P) (Has Jira Account, but needs to be aligned) Develop Web Site
 *Sami* - Cyber Security - Prepare Security Protocol - Holiday 9th
 *Waseem* - Business Consultant - (P) *Jira 30th Dec Git *  - Meet in person on 10th Jan
