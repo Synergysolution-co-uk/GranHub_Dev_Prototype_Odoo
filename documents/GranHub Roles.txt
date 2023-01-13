@@ -1,8 +1,8 @@
 *GranHub MoM*
 *-------------*
-*Meeting update* -  11/01/2023
+*Meeting update* -  11&12/01/2023
 *Prasanna* - Business Development Consultant - SP-4 (P) *Jira 4th Jan Git 11th Jan,* - To create feature list
-*Ravi* - Automation Tester - SP-5 (A) *Only use Jira 6th Jan* - Creating Test Case in Jira
+*Ravi* - Automation Tester - SP-5 (P) *Only use Jira 6th Jan* - Creating Test Case in Jira
 *Snehit* - Software Engineer - SP-3 (P) *Jira 9th Jan Git 28th Dec* - To Develop Basic Website, no progress after 28th Dec
 
 *Sneha* - Software Engineer? - (P) (Has Jira Account, but needs to be aligned) Develop Web Site
