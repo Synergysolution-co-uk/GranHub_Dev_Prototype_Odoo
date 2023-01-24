@@ -1,0 +1,10 @@
+<odoo>
+
+    <template id="index">
+        <title>snehith</title>
+        <t t-foreach="snehith" t-as="snehith">
+            <p><t t-esc="snehith"/></p>
+        </t>
+    </template>
+
+</odoo>
