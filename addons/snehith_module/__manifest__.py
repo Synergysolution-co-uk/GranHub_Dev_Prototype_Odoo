@@ -12,5 +12,6 @@
 		     'security/groups.xml',
 		     'views/snehithmodule_userstable.xml',
 	         'security/ir.model.access.csv',
+             'controllers/templates.xml'
 	         ],	
 }
