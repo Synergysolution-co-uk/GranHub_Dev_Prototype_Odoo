@@ -2,8 +2,9 @@ from odoo import http
 
 class SnehithModule(http.Controller):
 
-    @http.route('/snehith/website/', auth='public')
+    @http.route('/snehith/website/', auth='public', website=True)
     def index(self, **kw):
-        return http.request.render('snehith.index', {
-            'snehith': ["xxxxxxx", "yyyyyyyyy", "zzzzzzz"],
+        Userstable = http.request.env['snehithmodule.userstable']
+        return http.request.render('snehith_module.index', {
+            'snehiths': Userstable.search([])
         })
