@@ -1,11 +1,11 @@
 *GranHub MoM*
 *-------------*
-*Meeting update* -  23/01/2023
-*Prasanna* - Business Development Consultant - SP-4 (P) *Jira 19th Jan Git 16th Jan,* - To design web site like gransnet
+*Meeting update* -  31/01/2023
+*Prasanna* - Business Development Consultant - SP-4 (P) *Jira 19th Jan Git not required as working on database,* - Designing web site like gransnet
 *Shruthi* - Software Developer - (P) *Jira 21st Jan Git --* - To develop granhub_module
 
 *Ravi* - Automation Tester - SP-5 (A) *Jira 18th Jan Git-Not required* - Creating Test Case in Jira
-*Snehit* - Software Engineer - SP-3 (A) *Jira 18th Jan Git 28th Dec* - To Develop Basic Website, *no progress after 28th Dec
+*Snehit* - Software Engineer - SP-3 (A) *Jira 18th Jan Git 28th Dec* - To Develop Basic Website
 *Sneha* - Software Engineer? - (A) - (Has Jira Account, but needs to be aligned) Develop Web Site
-*Sami* - Cyber Security - (Leave) - Prepare Security Protocol
-*Waseem* - Business Consultant - (P) *18th Jan Git-Not required*  - Assign work in Jira
+*Sami* - Cyber Security - (A) - Prepare Security Protocol
+*Waseem* - Business Consultant - (A) *18th Jan Git-Not required*  - Assign work in Jira

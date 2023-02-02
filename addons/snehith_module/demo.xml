@@ -1,0 +1,13 @@
+<odoo>
+
+    <record id="xxxxxxx" model="snehithmodule.userstable">
+        <field name="name">xxxxxxx</field>
+    </record>
+    <record id="yyyyyyyyy" model="snehithmodule.userstable">
+        <field name="name">yyyyyyyyy</field>
+    </record>
+    <record id="zzzzzzz" model="snehithmodule.userstable">
+        <field name="name">zzzzzzz</field>
+    </record>
+
+</odoo>

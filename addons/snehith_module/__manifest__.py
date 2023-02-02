@@ -1,17 +1,18 @@
 {
-	'name': 'GRANHUB Module',
-    'summary' : "Grandparents Hub",
-	'description' : """Grandparents Hub""",
+	'name': 'Snehith Module',
+    'summary' : "Module to make granhub",
+	'description' : """description of the summary""",
 	'author' : "Synergy Solutions",
 	'license' : "AGPL-3",
 	'website' : "www.isgec.com",
 	'category' : 'Uncategorized',
 	'version' : '16.0.1.0.0',
-	'depends' : ['base'],
+	'depends' : ['website'],
 	'data' : [
 		     'security/groups.xml',
-		     'views/granhubmodule_userstable.xml',
+		     'views/snehithmodule_userstable.xml',
 	         'security/ir.model.access.csv',
-             'tempaltes.xml'
+             'templates.xml',
+             'demo.xml'
 	         ],	
 }
