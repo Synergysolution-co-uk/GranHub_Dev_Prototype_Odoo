@@ -1,9 +1,15 @@
 <odoo>
 
     <template id="index">
-        <title>snehith</title>
-        <t t-foreach="snehith" t-as="snehith">
-            <p><t t-esc="snehith"/></p>
+    <t t-call="website.layout">
+            <t t-set="title">snehith module</t>
+            <div class="oe_structure">
+                <div class="container">
+        <t t-foreach="snehiths" t-as="snehith">
+            <p><t t-esc="snehith.id"/> <t t-esc="snehith.name"/></p>
+            </t>
+                </div>
+            </div>
         </t>
     </template>
 

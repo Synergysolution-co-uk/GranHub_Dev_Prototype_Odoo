@@ -1,1 +1,1 @@
-from . import snehithmodule_userstable
+from . import snehithmodule_userstable,models
