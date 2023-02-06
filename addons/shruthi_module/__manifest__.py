@@ -1,7 +1,7 @@
 {
-	'name': 'Application Name',
-    'summary' : "Application Details",
-	'description' : """Application Details""",
+	'name': 'SHRUTHI_Module ',
+    'summary' : "Grandparents Hub",
+	'description' : """Grandparents Hub""",
 	'author' : "Leela Consultancy",
 	'license' : "AGPL-3",
 	'website' : "www.isgec.com",
@@ -10,7 +10,7 @@
 	'depends' : ['base'],
 	'data' : [
 		     'security/groups.xml',
-		     'views/odoomodule_odootable.xml',
+		     'views/SHRUTHIModule_Userstable.xml',
 	         'security/ir.model.access.csv',
 	         ],	
 }
