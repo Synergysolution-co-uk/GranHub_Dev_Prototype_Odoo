@@ -1,0 +1,41 @@
+<odoo>
+<act_window
+id="snehithmodule_discforum_action"
+name="Discussion Forum"
+res_model="snehithmodule.discforum" />
+
+<menuitem
+ id="snehithmodule_discforum_menu"
+ name="Snehith Module" 
+ action="snehithmodule_discforum_action"
+ parent=""/>
+ 
+
+<record id ="snehithmodule_discforum_view_form" model="ir.ui.view">
+   <field name="name">Disc Data Form</field>
+   <field name="model">snehithmodule.discforum</field>
+   <field name="arch" type="xml">
+         <form>
+ 	     <group>
+	        <field name="name"/>	
+	        <field name="description"/>
+	       </group>
+	 </form>
+   </field>
+</record>
+
+<record id="snehithmodule_discforum_view_tree" model="ir.ui.view">
+  <field name="name">Disc Data List</field>
+  <field name="model">snehithmodule.discforum</field>
+  <field name="arch" type="xml">
+    <tree>
+      <field name="name"/>
+      <field name="description"/>
+      </tree>
+   </field>
+</record>
+
+
+	
+	
+</odoo>

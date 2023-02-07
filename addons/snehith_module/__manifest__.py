@@ -11,8 +11,10 @@
 	'data' : [
 		     'security/groups.xml',
 		     'views/snehithmodule_userstable.xml',
+             'views/snehithmodule_discforum.xml',
 	         'security/ir.model.access.csv',
              'templates.xml',
              'demo.xml'
-	         ],	
+             
+	          ],	
 }
