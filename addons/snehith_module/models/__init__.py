@@ -1,1 +1,1 @@
-from . import snehithmodule_userstable,snehithmodule_discforum,models
+from . import snehithmodule_userstable,snehithmodule_discforum
