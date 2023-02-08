@@ -4,7 +4,7 @@ class SnehithModule(http.Controller):
 
     @http.route('/snehith/website/', auth='public', website=True)
     def index(self, **kw):
-        Userstable = http.request.env['snehithmodule.userstable']
+        DiscForum= http.request.env['snehithmodule.discforum']
         return http.request.render('snehith_module.index', {
-            'snehiths': Userstable.search([])
+            'snehiths': DiscForum.search([])
         })
