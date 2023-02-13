@@ -1,5 +1,5 @@
 {
-	'name': 'SHRUTHI_Module ',
+	'name': 'SHRUTHI Module ',
     'summary' : "ShruthiGrandparents Hub",
 	'description' : """ShruthiGrandparents Hub""",
 	'author' : "Leela Consultancy",
@@ -10,7 +10,7 @@
 	'depends' : ['base'],
 	'data' : [
 		     'security/groups.xml',
-		     'views/SHRUTHI Module_Userstable.xml',
+		     'views/shruthimodule_userstable.xml',
 	         'security/ir.model.access.csv',
 	         ],	
 }
