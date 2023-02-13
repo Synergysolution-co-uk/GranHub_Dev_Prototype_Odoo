@@ -16,6 +16,5 @@
              'templates.xml',
              'demo.xml'
              
-             
 	          ],	
 }

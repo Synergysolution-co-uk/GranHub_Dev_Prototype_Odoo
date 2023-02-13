@@ -1,1 +1,1 @@
-from . import SHRUTHI Module_UsersTable
+from . import shruthimodule_userstable
