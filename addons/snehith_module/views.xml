@@ -1,13 +1,13 @@
 <odoo>
-    <record id="action_snehithmodule_discforum" model="ir.actions.act_window">
+    <record id="action_snehithmodule_userstable" model="ir.actions.act_window">
         <field name="name">Snehith Module</field>
-        <field name="res_model>snehithmodule.discforum</field>
+        <field name="res_model>snehithmodule.userstable</field>
     </record>
 
     <menuitem sequence="0" id="menu_snehithmodule" name="Snehith Module"/>
     <menuitem id="menu_snehithmodule_content" parent="menu_snehithmodule"
                 name="Snehith Content"/>
-    <menuitem id="menu_snehithmodule_content_discforum"
+    <menuitem id="menu_snehithmodule_content_userstable"
                 parent="menu_snehithmodule_content"
-                action="action_snehithmodule_discforum"/>
+                action="action_snehithmodule_userstable"/>
 </odoo>
