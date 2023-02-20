@@ -15,27 +15,19 @@ res_model="snehithmodule.discforum" />
    <field name="name">Disc Data Form</field>
    <field name="model">snehithmodule.discforum</field>
    <field name="arch" type="xml">
-         <form>
- 	     <group>
-	        <field name="name"/>	
-	        <field name="description"/>
+         <form string="Topic">
+         <sheet>
+         <group>
+	       <field name="name"/>	
+	       <field name="description"/>
+	       <field name="tags"/>
+	       <field name="author"/>
 	       </group>
-	 </form>
+	       </sheet>
+	       	 </form>	       
    </field>
 </record>
-
-<record id="snehithmodule_discforum_view_tree" model="ir.ui.view">
-  <field name="name">Disc Data List</field>
-  <field name="model">snehithmodule.discforum</field>
-  <field name="arch" type="xml">
-    <tree>
-      <field name="name"/>
-      <field name="description"/>
-      </tree>
-   </field>
-</record>
-
-
-	
-	
 </odoo>
+
+	       
+	       
