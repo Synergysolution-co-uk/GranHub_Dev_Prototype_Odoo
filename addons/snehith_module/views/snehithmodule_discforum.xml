@@ -2,7 +2,7 @@
 <act_window
 id="snehithmodule_discforum_action"
 name="Discussion Forum"
-res_model="snehithmodule.discforum" />
+res_model="snehithmodule.discforum"/>
 
 <menuitem
  id="snehithmodule_discforum_menu"
@@ -27,6 +27,8 @@ res_model="snehithmodule.discforum" />
 	       	 </form>	       
    </field>
 </record>
+
+  
 </odoo>
 
 	       

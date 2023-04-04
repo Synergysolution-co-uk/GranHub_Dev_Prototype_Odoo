@@ -1,16 +1,19 @@
 <odoo>
 
-    <template id="index">
+    <template id="template_discforum">
     <t t-call="website.layout">
-            <t t-set="title">snehith module</t>
-            <div class="oe_structure">
+            <t t-set="title">Discussion forum</t>
                 <div class="container">
         <t t-foreach="snehiths" t-as="snehith">
-            <p><t t-esc="snehith.id"/> <t t-esc="snehith.name"/></p>
-            </t>
-                </div>
+        <div class="row">
+                        <p><strong>Name:</strong> <t t-esc="snehith.name"/></p>
+                        <p><strong>Description:</strong> <t t-esc="snehith.description"/></p>
+                        <p><strong>Tags:</strong> <t t-esc="snehith.tags"/></p>
+                        <p><strong>Author:</strong> <t t-esc="snehith.author"/></p>
             </div>
-        </t>
+            </t>
+            </div>
+                </t>
     </template>
 
 </odoo>
