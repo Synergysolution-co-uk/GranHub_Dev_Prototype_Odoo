@@ -8,3 +8,12 @@ class SnehithModule(http.Controller):
         return http.request.render('snehith_module.template_discforum', {
             'snehiths': discforum.search([])
         })
+    
+class SnehithModuleList(http.Controller):
+
+    @http.route('/snehith/mainpage/', auth='public', website=True)
+    def index(self, **kw):
+        discforum = http.request.env['snehithmodule.discforum']
+        return http.request.render('snehith_module.template_discforum_topic', {
+            'snehiths': discforum.search([])
+        })
