@@ -17,3 +17,13 @@ class SnehithModuleList(http.Controller):
         return http.request.render('snehith_module.template_discforum_topic', {
             'snehiths': discforum.search([])
         })
+    
+class SnehithModuleTopic(http.Controller):
+
+    @http.route('/snehith/topic/<int:topic_id>', auth='public', website=True)
+    def topic_page(self, topic_id, **kw):
+        discforum = http.request.env['snehithmodule.discforum']
+        topic = discforum.browse(topic_id)
+        return http.request.render('snehith_module.template_topic', {
+            'topic': topic
+        })    
