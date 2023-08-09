@@ -37,8 +37,34 @@
             </tree>
         </field>
     </record>	
+
+    <template id="template_discforum">
+        <t t-call="website.layout">
+            <div class="container">
+                <h1>Discussion Forum</h1>
+                <t t-foreach="snehiths" t-as="snehith">
+                    <div class="row">
+                        <a t-attf-href="/snehith/topic/{{snehith.id}}">
+                            <p><strong>Name:</strong> <t t-esc="snehith.name"/></p>
+                        </a>
+                    </div>
+                </t>
+            </div>
+        </t>
+    </template>
+
+    <template id="template_topic">
+        <t t-call="website.layout">
+            <div class="container">
+                <div class="row">
+                    <h1><t t-esc="snehiths.name"/></h1>
+                    <p><strong>Description:</strong> <t t-esc="snehiths.description"/></p>
+                    <p><strong>Tags:</strong> <t t-esc="snehiths.tags"/></p>
+                    <p><strong>Author:</strong> <t t-esc="snehiths.author"/></p>
+                </div>
+            </div>
+        </t>
+    </template>
 </odoo>
 
-
-	       
 	       
