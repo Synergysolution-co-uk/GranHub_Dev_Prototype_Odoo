@@ -2,18 +2,20 @@
 <odoo>
 <act_window
 id="shruthimodule_userstable_action"
-name="Users Data"
+name="Users Data1"
 res_model="shruthimodule.userstable" />
 
 <menuitem
  id="shruthimodule_userstable_menu"
- name="SHRUTHI Module" 
+ name="SHRUTHI Module1" 
  action="shruthimodule_userstable_action"
  parent=""
- sequence="5" />
+ sequence="5" />   
+
 
 <record id ="shruthimodule_userstable_view_form" model="ir.ui.view">
-   <field name="name">Users Data Form</field>
+   <field name="name">Users Data Form1</field>
+    <!-- <field name="name">Users Data Form</field> -->
    <field name="model">shruthimodule.userstable</field>
    <field name="arch" type="xml">
          <form>
@@ -21,11 +23,11 @@ res_model="shruthimodule.userstable" />
 	        <field name="name"/>	
 	     </group>
 	 </form>
-   </field>
+	 </field>
 </record>
 
 <record id="shruthimodule_userstable_view_tree" model="ir.ui.view">
-  <field name="name">Users Data List</field>
+  <field name="name">Users Data List1</field>
   <field name="model">shruthimodule.userstable</field>
   <field name="arch" type="xml">
     <tree>
