@@ -22,6 +22,6 @@ class SnehithModuleTopic(http.Controller):
 
     @http.route('/snehith/topic/<model("snehithmodule.discforum"):website>/', auth='public', website=True)
     def topic_page(self, website):
-        return http.request.render('snehith_module.template_topic', {
-           'snehiths': website 
+        return http.request.render('snehith_module.template_discforum_list', {
+           'snehiths': website
         })    

@@ -38,13 +38,7 @@
         </field>
     </record>	
     
-   <t t-foreach="snehiths" t-as="website">
-    <li>
-         <a t-attf-href="/snehith/topic/{{ slug(website)}}/">
-            <t t-esc="website.name"/>  | <t t-esc="website.url"/>
-          </a>
-     </li>
- </t>
+  
 </odoo>
 
 	       
