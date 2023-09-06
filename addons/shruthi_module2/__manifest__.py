@@ -11,5 +11,6 @@
 	'data' : [
 		     'security/groups.xml',
 		     'views/shruthimodule_userstable.xml',
-	         'security/ir.model.access.csv'	         ],	
+	         'security/ir.model.access.csv',
+	         ],	
 }
