@@ -14,7 +14,6 @@
              'views/snehithmodule_discforum.xml',
 	         'security/ir.model.access.csv',
              'template_topic.xml',
-             'templates.xml',
              'demo.xml'
              
 	          ],	

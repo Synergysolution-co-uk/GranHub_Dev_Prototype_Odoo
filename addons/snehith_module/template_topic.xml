@@ -1,5 +1,5 @@
 <odoo>
-    <template id="template_discforum">
+<!-- <template id="template_discforum">
         <t t-call="website.layout">
             <t t-set="title">Discussion forum topics</t>
             <div class="container">
@@ -7,11 +7,13 @@
                     <div class="row">
                         <p><strong>Topic:</strong> <t t-esc="snehith.name"/></p>
                         <p><strong>By:</strong> <t t-esc="snehith.author"/></p>
+                        <p><strong>Description:</strong> <t t-esc="snehith.description"/></p>
+                        <p><strong>Tags:</strong> <t t-esc="snehith.tags"/></p>
                     </div>
                 </t>
             </div>
         </t>
-    </template>
+    </template> -->
 
     <template id="template_discforum_topic">
         <t t-call="website.layout">
@@ -21,7 +23,7 @@
                     <li>
                         <a t-attf-href="/snehith/topic/{{ slug(website)}}/">
                             <t t-esc="website.name"/> | <t t-esc="website.author"/>
-                        </a>
+                            </a>
                     </li>
                 </t>
             </div>
