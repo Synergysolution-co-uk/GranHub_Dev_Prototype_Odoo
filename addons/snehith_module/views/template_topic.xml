@@ -6,9 +6,14 @@
                 <div class="container">
         <t t-foreach="snehiths" t-as="snehith">
         <div class="row">
-                        <p><strong> -> </strong> <t t-esc="snehith.name"/></p>
-                        <p><strong>By</strong> <t t-esc="snehith.author"/></p>
-            </div>
+            
+                    <li>
+                        <a t-attf-href="/snehith/topic/{{ slug(snehith)}}/">
+                            <t t-esc="snehith.name"/> | <t t-esc="snehith.author"/>
+                        </a>
+                    </li>
+            
+				</div>
             </t>
             </div>
                 </t>
