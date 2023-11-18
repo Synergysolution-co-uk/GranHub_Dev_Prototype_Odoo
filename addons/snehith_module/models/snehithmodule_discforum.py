@@ -6,3 +6,4 @@ class SnehithModuleDiscforum(models.Model):
     description = fields.Char('Description', required=True)
     tags = fields.Char('Tags',required=True)
     author = fields.Char('Author',required=True)
+    response = fields.Char('Response',required=True)

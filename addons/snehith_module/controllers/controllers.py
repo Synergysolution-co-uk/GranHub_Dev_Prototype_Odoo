@@ -8,7 +8,8 @@ class SnehithModule(http.Controller):
         return http.request.render('snehith_module.template_discforum', {
             'snehiths': discforum.search([])
         })
-    
+from odoo import http
+
 class SnehithModuleList(http.Controller):
 
     @http.route('/snehith/mainpage/', auth='public', website=True)
@@ -20,8 +21,8 @@ class SnehithModuleList(http.Controller):
     
 class SnehithModuleTopic(http.Controller):
 
-    @http.route('/snehith/topic/<model("snehithmodule.discforum"):website>/', auth='public', website=True)
-    def topic_page(self, website):
-        return http.request.render('snehith_module.template_discforum_list', {
-           'snehiths': website
+    @http.route('/snehith/topic/<model("snehithmodule.discforum"):webpage>/', auth='public', website=True)
+    def topic_page(self, webpage):
+        return http.request.render('snehith_module.template_topic', {
+           'snehiths': webpage 
         })    

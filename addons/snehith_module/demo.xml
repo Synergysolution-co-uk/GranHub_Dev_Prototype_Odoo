@@ -1,13 +1,26 @@
 <odoo>
 
-    <record id="xxxxxxx" model="snehithmodule.userstable">
-        <field name="name">xxxxxxx</field>
+    <record id="001" model="snehithmodule.discforum">
+        <field name="name">Health</field>
+		<field name="description">Discussion on Health</field>
+		<field name="tags">Wellbeing; Health</field>
+		<field name="author">Snehith</field>
+		<field name="response">Please give details</field>
     </record>
-    <record id="yyyyyyyyy" model="snehithmodule.userstable">
-        <field name="name">yyyyyyyyy</field>
+    <record id="002" model="snehithmodule.discforum">
+        <field name="name">Beauty</field>
+		<field name="description">Discussion on Beauty</field>
+		<field name="tags">Aging; Beauty</field>
+		<field name="author">Snehith</field>
+		<field name="response">Please give details</field>
     </record>
-    <record id="zzzzzzz" model="snehithmodule.userstable">
-        <field name="name">zzzzzzz</field>
+	<record id="003" model="snehithmodule.discforum">
+        <field name="name">Aging</field>
+		<field name="description">Discussion on Aging</field>
+		<field name="tags">Aging</field>
+		<field name="author">Snehith</field>
+		<field name="response">Please give details</field>
     </record>
-
 </odoo>
+
+

@@ -5,11 +5,12 @@ id="snehithmodule_userstable_action"
 name="Users Data"
 res_model="snehithmodule.userstable" />
 
+<menuitem id="snehithmodule_menu" name="SNEHITH Module" sequence="1"/>
 <menuitem
  id="snehithmodule_userstable_menu"
- name="Snehith Module" 
+ name="User Table" 
  action="snehithmodule_userstable_action"
- parent=""
+ parent="snehithmodule_menu"
  sequence="5" />
 
 <record id ="snehithmodule_userstable_view_form" model="ir.ui.view">
