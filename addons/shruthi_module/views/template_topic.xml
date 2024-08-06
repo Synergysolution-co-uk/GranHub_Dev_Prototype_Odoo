@@ -1,0 +1,37 @@
+<odoo>
+
+    <template id="template_discforum_topic">
+    <t t-call="website.layout">
+            <t t-set="title">Discussion forum topics</t>
+                <div class="container">
+        <t t-foreach="snehiths" t-as="snehith">
+        <div class="row">
+            
+                    <li>
+                        <a t-attf-href="/snehith/topic/{{ slug(snehith)}}/">
+                            <t t-esc="snehith.name"/> | <t t-esc="snehith.author"/>
+                        </a>
+                    </li>
+            
+				</div>
+            </t>
+            </div>
+                </t>
+    </template>
+     <template id="template_topic">
+    <t t-call="website.layout">
+            <t t-set="title">Discussion forum</t>
+                <div class="container">
+        <t t-foreach="snehiths" t-as="snehith">
+        <div class="row">
+                        <p><strong>Name:</strong> <t t-esc="snehith.name"/></p>
+                        <p><strong>Description:</strong> <t t-esc="snehith.description"/></p>
+                        <p><strong>Tags:</strong> <t t-esc="snehith.tags"/></p>
+                        <p><strong>Author:</strong> <t t-esc="snehith.author"/></p>
+            </div>
+            </t>
+            </div>
+                </t>
+    </template>
+
+</odoo>
